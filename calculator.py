@@ -39,7 +39,7 @@ def calculator() -> None:
 
         result = operations[choice](num1, num2)
 
-        if result != result:  # TODO: Test for NaN
+        if result != result:
             print("Error: Cannot divide by zero!")
         else:
             print(f"Result: {num1} {
